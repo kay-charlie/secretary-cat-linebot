@@ -86,6 +86,3 @@ function getRichMenu($message) {
     }
     return $messages;
 }
-/*
-echo '<pre>';
-print_r(getRichMenu('{人気レシピ}'));
