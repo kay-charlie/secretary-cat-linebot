@@ -17,7 +17,6 @@ function getClient()
 function getVideos($search) 
 {
     $youtube = new Google_Service_YouTube(getClient());
-    //ここに好きなYouTubeのチャンネルIDを入れる
     $params['type'] = 'video';
     $params['maxResults'] = 5;
     $params['order'] = 'viewCount';
